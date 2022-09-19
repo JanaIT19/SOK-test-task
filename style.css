@@ -1,0 +1,105 @@
+.page-wrapper {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-container {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-element,
+.button.login {
+    margin: 6px;
+    box-sizing: border-box;     
+}
+
+.form-element input,
+.form-element select {
+    border: 2px solid rgb(167, 206, 90);
+    border-radius: 5px;
+}
+
+.button-wrapper {
+    text-align: end;
+}
+
+.button.login,
+.button.link {
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    background: rgb(189, 218, 132);
+    color: rgb(87, 90, 83);
+    border: none;
+    border-radius: 40px;
+    max-width: 100px;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button.link:hover {
+    background: rgb(160, 187, 108);
+}
+
+.tooltip {
+    position: relative;
+    margin: 6px;
+}
+
+.tooltip::after {
+    content: '?';
+    display: block;
+    background-color: rgb(6, 65, 30);
+    color: white;
+    border-radius: 100%;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.tooltip .tooltip-content {
+    display: none;
+    position: absolute;
+    top: 22px;
+    border: 1px solid rgb(6, 65, 30);
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.tooltip:hover .tooltip-content {
+    display: block;
+}
+
+.navbar-wrapper li {
+    padding: 6px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+}
+
+.menu-link.info {
+    margin-right: 4px;
+    text-decoration: none;
+    color: rgb(6, 65, 30);
+}
+
+.menu-link:not(.info) {
+    padding: 4px;
+    font-size: 14px;
+    margin-right: 4px;
+    font-weight: 300;
+    background: rgb(241, 245, 234);
+    color: rgb(87, 90, 83);
+    border: 1px solid rgb(42, 44, 40);
+    border-radius: 40px;
+    max-width: 100px;
+    width: 100%;
+    text-decoration: none;
+}
+
